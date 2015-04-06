@@ -1,3 +1,10 @@
 # ProjectGenesis
 The Beginning of OpenHQ
-This is the first EDIT
+
+To use in development, we depend on virtualenv. We assume you have Python and pip installed.
+
+$ git clone git@github.com:STAbraham/ProjectGenesis.git
+$ virtualenv env
+$ . env/bin/activate
+$ pip install -r requirements.txt
+
